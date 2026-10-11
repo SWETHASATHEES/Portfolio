@@ -1,4 +1,4 @@
-# DataFlix — Netflix-inspired Portfolio
+# Portfolio
 
 A responsive, dark, streaming-platform-inspired portfolio for data analytics, machine learning, and AI projects. Built with plain HTML, CSS, and JavaScript. No build tools or package installation required.
 
