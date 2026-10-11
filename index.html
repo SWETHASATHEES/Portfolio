@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of a data analyst and machine learning practitioner. Explore data, analytics, and AI projects." />
+  <meta name="theme-color" content="#080808" />
+  <title>DataFlix | Data, Analytics & AI Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="DataFlix home"><span class="brand-mark">D</span><span>DATA<span class="brand-red">FLIX</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a>
+    </nav>
+    <div class="top-actions">
+      <a class="nav-contact" href="#contact">Let's connect</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-backdrop"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> PORTFOLIO ORIGINAL</p>
+        <p class="hero-kicker">DATA · INSIGHTS · INTELLIGENCE</p>
+        <h1>Turning data<br/><span>into decisions.</span></h1>
+        <p class="hero-copy">I'm <strong>Swetha Sathees</strong> — a data and analytics professional exploring the space where machine learning, business intelligence, and real-world problems meet.</p>
+        <div class="hero-tags"><span>Machine Learning</span><span>Data Analytics</span><span>Business Intelligence</span></div>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects"><span class="play-icon">▶</span> Explore projects</a>
+          <a class="btn btn-secondary" href="#about"><span class="info-icon">i</span> More about me</a>
+        </div>
+        <p class="hero-note"><span class="match">PROFILE</span> Data · Analytics · AI <span class="dot-sep">•</span> Open to opportunities in India and the UAE</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="data-core"><span>AI</span><small>INSIGHT ENGINE</small></div>
+        <div class="float-card card-one"><span class="mini-label">MODEL OUTPUT</span><strong>01</strong><small>Learn · Test · Improve</small></div>
+        <div class="float-card card-two"><span class="mini-label">DATA → VALUE</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+      <a class="scroll-cue" href="#projects">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="content-section" id="projects">
+      <div class="section-heading">
+        <div><p class="section-overline">CURATED COLLECTION</p><h2>Featured projects <span class="heading-mark">▌</span></h2><p class="section-subtitle">A few stories told through data, models, and measurable outcomes.</p></div>
+        <div class="row-controls"><button class="row-arrow" data-scroll="projects-track" data-dir="-1" aria-label="Scroll projects left">‹</button><button class="row-arrow" data-scroll="projects-track" data-dir="1" aria-label="Scroll projects right">›</button></div>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter projects">
+        <button class="filter-chip active" data-filter="all">All titles</button><button class="filter-chip" data-filter="ml">Machine learning</button><button class="filter-chip" data-filter="analytics">Analytics</button><button class="filter-chip" data-filter="ai">AI & research</button>
+      </div>
+      <div class="project-track" id="projects-track">
+        <article class="project-card" data-category="ml">
+          <div class="project-art art-ev"><span class="art-index">01 / FORECASTING</span><div class="art-symbol">↗</div><div class="art-bottom"><span>ENERGY INTELLIGENCE</span><strong>EV CHARGE<br/>FORECAST</strong></div></div>
+          <div class="project-info"><div class="project-meta"><span class="rating">FEATURED</span><span>Time-series ML</span><span class="quality">◈</span></div><h3>EV Charging Demand Forecasting</h3><p>Forecast charging demand using time-series methods and machine learning to support station planning.</p><div class="tech-tags"><span>SARIMA</span><span>XGBoost</span><span>Power BI</span></div><button class="details-link" data-project="ev">View project details <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="ai">
+          <div class="project-art art-news"><span class="art-index">02 / NLP RESEARCH</span><div class="news-orbit"></div><div class="art-bottom"><span>TRUST & INFORMATION</span><strong>WAR-RELATED<br/>MISINFORMATION</strong></div></div>
+          <div class="project-info"><div class="project-meta"><span class="rating">RESEARCH</span><span>NLP · Classification</span><span class="quality">◈</span></div><h3>War-Related Misinformation Detection</h3><p>Research-oriented workflow to compare text representations and machine learning classifiers for social media content.</p><div class="tech-tags"><span>TF-IDF</span><span>BERT</span><span>SHAP</span></div><button class="details-link" data-project="news">View project details <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="ml">
+          <div class="project-art art-housing"><span class="art-index">03 / PREDICTIVE MODELLING</span><div class="house-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-bottom"><span>PROPERTY ANALYTICS</span><strong>HOUSING PRICE<br/>PREDICTION</strong></div></div>
+          <div class="project-info"><div class="project-meta"><span class="rating">COMPARATIVE STUDY</span><span>Regression</span><span class="quality">◈</span></div><h3>Housing Price Prediction</h3><p>A comparative modelling study exploring housing prices across King County and Paris datasets.</p><div class="tech-tags"><span>Regression</span><span>Python</span><span>Evaluation</span></div><button class="details-link" data-project="housing">View project details <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="analytics">
+          <div class="project-art art-sales"><span class="art-index">04 / BUSINESS INTELLIGENCE</span><div class="sales-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-bottom"><span>COMMERCIAL PERFORMANCE</span><strong>SALES FUNNEL<br/>ANALYTICS</strong></div></div>
+          <div class="project-info"><div class="project-meta"><span class="rating">BUSINESS INSIGHTS</span><span>Classification</span><span class="quality">◈</span></div><h3>Predictive Sales Funnel Analytics</h3><p>Explore sales data, model conversion outcomes, and turn patterns into actionable business insights.</p><div class="tech-tags"><span>Random Forest</span><span>XGBoost</span><span>SQL</span></div><button class="details-link" data-project="sales">View project details <span>↗</span></button></div>
+        </article>
+        <article class="project-card" data-category="analytics">
+          <div class="project-art art-customer"><span class="art-index">05 / CUSTOMER INSIGHTS</span><div class="cluster cluster-a"></div><div class="cluster cluster-b"></div><div class="cluster cluster-c"></div><div class="art-bottom"><span>SEGMENTATION</span><strong>SHOPPING<br/>TRENDS</strong></div></div>
+          <div class="project-info"><div class="project-meta"><span class="rating">EXPLORATION</span><span>Unsupervised ML</span><span class="quality">◈</span></div><h3>Customer Shopping Trends</h3><p>Apply clustering and dimensionality reduction to explore customer behaviour and unusual patterns.</p><div class="tech-tags"><span>K-Means</span><span>PCA</span><span>Isolation Forest</span></div><button class="details-link" data-project="customer">View project details <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="section-footnote">Project summaries are editable starter content. Add your repository links, screenshots, and verified final results before publishing.</p>
+    </section>
+
+    <section class="content-section skills-section" id="skills">
+      <div class="section-heading"><div><p class="section-overline">YOUR TOOLKIT</p><h2>Skills & capabilities <span class="heading-mark">▌</span></h2><p class="section-subtitle">The technologies behind the work.</p></div></div>
+      <div class="skills-layout">
+        <div class="skill-panel"><div class="panel-top"><span class="panel-icon">⌘</span><div><h3>Technical stack</h3><p>Core tools and methods</p></div></div>
+          <div class="skill-list">
+            <div class="skill-item"><div><span>Python</span><small>Data analysis · ML</small></div><div class="skill-track"><i style="width:88%"></i></div></div>
+            <div class="skill-item"><div><span>SQL</span><small>Querying · Data prep</small></div><div class="skill-track"><i style="width:84%"></i></div></div>
+            <div class="skill-item"><div><span>Power BI / Tableau</span><small>Dashboards · Reporting</small></div><div class="skill-track"><i style="width:82%"></i></div></div>
+            <div class="skill-item"><div><span>Machine Learning</span><small>Modelling · Evaluation</small></div><div class="skill-track"><i style="width:80%"></i></div></div>
+            <div class="skill-item"><div><span>Data preparation</span><small>ETL · Feature engineering</small></div><div class="skill-track"><i style="width:86%"></i></div></div>
+          </div><p class="small-note">Bars are illustrative visual indicators, not formal proficiency scores. Adjust them to reflect your experience.</p>
+        </div>
+        <div class="skill-panel"><div class="panel-top"><span class="panel-icon teal">◉</span><div><h3>What I work with</h3><p>Methods across the data lifecycle</p></div></div>
+          <div class="skill-cloud"><span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>CatBoost</span><span>Pandas</span><span>NumPy</span><span>TensorFlow</span><span>Excel</span><span>ETL</span><span>Time-series</span><span>NLP</span><span>Model evaluation</span></div>
+          <div class="mini-insight"><span class="insight-line"></span><div><strong>From raw data to decisions</strong><p>Clean · Explore · Model · Communicate</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-art"><div class="about-frame"><span class="about-quote">“</span><div class="about-data-lines"><i></i><i></i><i></i><i></i><i></i></div><span class="about-art-label">CURIOUS BY DESIGN</span></div></div>
+      <div class="about-copy"><p class="section-overline">BEHIND THE DATA</p><h2>Curiosity meets<br/><span>structured thinking.</span></h2><p>I enjoy turning complex datasets into clear insights, building predictive models, and communicating results in ways that support better decisions.</p><p>My interests span data analytics, business intelligence, machine learning, and applied AI research. I value sound methodology, transparent evaluation, and solutions grounded in real-world needs.</p>
+        <div class="about-stats"><div><strong>MSc</strong><span>Mathematics</span></div><div><strong>Data</strong><span>Analytics focus</span></div><div><strong>AI + BI</strong><span>Areas of interest</span></div></div>
+        <a class="btn btn-primary" href="#contact">Get in touch <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="section-overline">NEXT EPISODE?</p><h2>Let's make data<br/><span>do something meaningful.</span></h2><p>Interested in data analytics, business intelligence, or machine learning opportunities? Let's connect.</p>
+      <div class="contact-actions"><a class="btn btn-primary" href="mailto:YOUR.EMAIL@example.com">✉ Email me</a><a class="btn btn-secondary" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/YOUR-LINKEDIN-URL" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      <p class="contact-edit-note">Before launch, replace the placeholder email and profile links in <code>index.html</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">D</span><span>DATA<span class="brand-red">FLIX</span></span></a><p>Built with curiosity, data, and a little cinematic flair.</p><p>© <span id="year"></span> Swetha Sathees · Portfolio</p><a href="#top" class="back-top">Back to top ↑</a></footer>
+
+  <dialog class="project-modal" id="project-modal"><button class="modal-close" aria-label="Close details">×</button><p class="section-overline" id="modal-label">PROJECT FEATURE</p><h2 id="modal-title">Project title</h2><p id="modal-description"></p><div class="modal-block"><h3>Project focus</h3><p id="modal-focus"></p></div><div class="modal-block"><h3>Tools and methods</h3><div class="tech-tags" id="modal-tech"></div></div><p class="modal-note">Add your final report, verified results, and repository URL here when ready.</p><a class="btn btn-primary" id="modal-link" href="#contact">Ask me about this project ↗</a></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
